@@ -1,0 +1,21 @@
+{
+    "name": "rezarfahi/test",
+    "description": "test for autoload",
+    "type": "project",
+    "authors": [
+        {
+            "name": "rezarfahi"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+        "heart\\":"heart/"
+        },
+        "files": ["functions/functions.php"]
+    },
+    "require": {
+        "symfony/security-csrf": "^6.0",
+        "guzzlehttp/psr7": "^2.2",
+        "guzzlehttp/guzzle": "^7.4"
+    }
+}
