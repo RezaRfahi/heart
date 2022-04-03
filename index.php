@@ -3,7 +3,7 @@ require 'vendor/autoload.php';
 
 use heart\Love;
 
-$love=new Love('leyla');
+$love=new Love('jigili');
 
 $love->printNameofLove();
 
