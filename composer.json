@@ -13,6 +13,7 @@
         },
         "files": ["functions/functions.php"]
     },
+    "license": "MIT",
     "require": {
         "symfony/security-csrf": "^6.0",
         "guzzlehttp/psr7": "^2.2",
